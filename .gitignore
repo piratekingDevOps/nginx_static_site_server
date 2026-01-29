@@ -1,0 +1,76 @@
+# =========================
+# Ì¥ê SSH Keys & Secrets
+# =========================
+*.pem
+*.key
+*.pub
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+github_deploy_key
+github_deploy_key.*
+ssh_key*
+key_*
+
+# =========================
+# ‚òÅÔ∏è Cloud / Infra Secrets
+# =========================
+.env
+.env.*
+*.tfstate
+*.tfstate.*
+.terraform/
+aws-credentials*
+credentials
+config
+
+# =========================
+# Ì∑™ Logs & Runtime Files
+# =========================
+*.log
+logs/
+nohup.out
+*.pid
+
+# =========================
+# Ì∂•Ô∏è OS / Editor Junk
+# =========================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+.vscode/
+.idea/
+
+# =========================
+# Ì≥¶ Node / Build Artifacts
+# (if used later)
+# =========================
+node_modules/
+dist/
+build/
+.cache/
+
+# =========================
+# Ìºê Static Site Output
+# (keep if generated)
+# =========================
+public/
+_site/
+.out/
+
+# =========================
+# Ì¥í GitHub Actions
+# =========================
+.env.github
+.secrets
+
+# =========================
+# Ì∑∞ Misc
+# =========================
+*.zip
+*.tar.gz
+*.tmp
+
